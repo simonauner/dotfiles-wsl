@@ -39,6 +39,7 @@ Let's go!
 			useConfigOnly = true
 
 * read and run (parts of) `setup-a-new-machine.sh`
+* run `symlink-setup.sh`
 
 #### what you get
 * z
