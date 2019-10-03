@@ -109,3 +109,12 @@ alias please='sudo $(fc -ln -1)'
 case $(uname -a) in
    *Microsoft*) unsetopt BG_NICE ;;
 esac
+
+# Add local/bin to path
+export PATH="$PATH:$HOME/.local/bin"
+export DOCKER_HOST=tcp://localhost:2375
+
+# add nvm
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
