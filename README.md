@@ -33,7 +33,7 @@ Let's go!
 * fork this to your own acct
 * clone that repo
 * Create `.gitconfig.local` with user settings
-	
+
 		[user]
 			email = ...
 			name = ...
